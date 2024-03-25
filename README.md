@@ -10,7 +10,6 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
 - [Author](#author)
 
 
@@ -21,8 +20,8 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 ![](./screenshot.png)
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution](https://your-solution-url.com)
+- Live Site URL: [Live Site](https://femrepos.github.io/recipe-page/)
 
 ## My Process
 
@@ -53,9 +52,6 @@ I learnt how to use the root selector and css variables.
   --dark-charcoal: hsl(24, 5%, 18%);
 }
 ```
-### Continued development
-
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
 
 ## Author
 
