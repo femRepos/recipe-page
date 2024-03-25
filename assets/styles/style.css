@@ -1,0 +1,167 @@
+/* root */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 16px;
+  /* Colors */
+
+  /* Primary */
+  --nutmeg: hsl(14, 45%, 36%);
+  --dark-raspberry: hsl(332, 51%, 32%);
+
+  /* Neutral */
+  --white: hsl(0, 0%, 100%);
+  --rose-white: hsl(330, 100%, 98%);
+  --eggshell: hsl(30, 54%, 90%);
+  --light-grey: hsl(30, 18%, 87%);
+  --wenge-brown: hsl(30, 10%, 34%);
+  --dark-charcoal: hsl(24, 5%, 18%);
+}
+
+body {
+  background-color: var(--eggshell);
+  font-family: 'Outfit', sans-serif;
+  padding: 125px;
+}
+
+h1, h2 {
+  font-family: 'Young Serif', serif;
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: var(--dark-charcoal);
+  margin: 30px 0;
+}
+
+h2 {
+  font-size: 1.5rem;
+  color: var(--nutmeg);
+  margin-bottom: 30px;
+}
+
+p {
+  font-size: 1rem;
+  color: var(--wenge-brown);
+}
+
+hr {
+  border-width: 1px 0 0 0;
+  border-color: var(--light-grey);
+  border-style: solid;
+}
+
+section {
+  margin: 30px 0;
+}
+
+section:last-child {
+  margin-bottom: 0;
+}
+
+li::marker {
+  color: var(--nutmeg);
+}
+
+li > p {
+  /* display: inline; */
+  position: relative;
+  top: -20px;
+  left: 30px;
+}
+
+strong {
+  font-weight: 600;
+}
+
+/* main */
+
+main {
+  background-color: var(--white);
+  max-width: 735px; 
+  border-radius: 15px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+/* intro section */
+.banner {
+}
+
+img {
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+}
+
+/* prep */
+
+.prep {
+  background-color: var(--rose-white);
+  padding: 25px;
+  border-radius: 15px;
+}
+
+li {
+  list-style-position: inside;
+}
+
+.prep li:last-child {
+  margin-bottom: 5px;
+}
+
+.prep li::marker {
+  color: var(--dark-raspberry);
+}
+
+.prep h2 {
+  color: var(--dark-raspberry);
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 1.25rem;
+  margin: 0 0 20px;
+}
+
+span.alt {
+  color: var(--nutmeg);
+  font-weight: 600;
+}
+
+
+/* nutrition */
+.table {
+  
+}
+
+.row {
+  display: flex;
+  border-bottom: 1px solid var(--light-grey);
+}
+
+.row:last-child {
+  border-bottom: none;
+}
+
+.row .item:first-child {
+  padding-left: 30px;
+}
+
+.item {
+  width: 50%;
+  padding: 15px 0;
+}
+
+/* footer */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
