@@ -69,10 +69,8 @@ li::marker {
 }
 
 li > p {
-  /* display: inline; */
   position: relative;
-  top: -20px;
-  left: 30px;
+  left: 20px;
 }
 
 strong {
@@ -108,7 +106,7 @@ img {
 }
 
 li {
-  list-style-position: inside;
+  margin-bottom: 15px;
 }
 
 .prep li:last-child {
